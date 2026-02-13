@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Playfair_Display, Montserrat } from "next/font/google";
 import { motion, AnimatePresence } from "framer-motion";
-// @ts-expect-error - library types are sometimes not indexed correctly by IDE
 import Fireworks from "@fireworks-js/react";
 import Image from "next/image";
 
