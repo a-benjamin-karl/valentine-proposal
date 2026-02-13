@@ -6,24 +6,24 @@ import { useState, useEffect } from "react";
 
 // 18 images - UPDATE THESE PATHS TO YOUR NEW IMAGES
 const images = [
-  "/game-photos/1.jpeg",  // Updated to match your .jpeg files
-  "/game-photos/2.jpeg",
-  "/game-photos/3.jpeg",
-  "/game-photos/4.jpeg",
-  "/game-photos/5.jpeg",
-  "/game-photos/6.jpeg",
-  "/game-photos/7.jpeg",
-  "/game-photos/8.jpeg",
-  "/game-photos/9.jpeg",
-  "/game-photos/10.jpeg",
-  "/game-photos/11.jpeg",
-  "/game-photos/12.jpeg",
-  "/game-photos/13.jpeg",
-  "/game-photos/14.jpeg",
-  "/game-photos/15.jpeg",
-  "/game-photos/16.jpeg",
-  "/game-photos/17.jpeg",
-  "/game-photos/18.jpeg",
+  "/game-photos/1.jpg",  // Updated to match your .jpeg files
+  "/game-photos/2.jpg",
+  "/game-photos/3.jpg",
+  "/game-photos/4.jpg",
+  "/game-photos/5.jpg",
+  "/game-photos/6.jpg",
+  "/game-photos/7.jpg",
+  "/game-photos/8.jpg",
+  "/game-photos/9.jpg",
+  "/game-photos/10.jpg",
+  "/game-photos/11.jpg",
+  "/game-photos/12.jpg",
+  "/game-photos/13.jpg",
+  "/game-photos/14.jpg",
+  "/game-photos/15.jpg",
+  "/game-photos/16.jpg",
+  "/game-photos/17.jpg",
+  "/game-photos/18.jpg",
 ];
 
 // Create 18 pairs of images (36 images in total)
