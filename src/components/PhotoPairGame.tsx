@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 // 18 images - UPDATE THESE PATHS TO YOUR NEW IMAGES
@@ -144,11 +143,10 @@ export default function PhotoPairGame({
                     transition={{ duration: 0.4, type: "spring", stiffness: 260, damping: 20 }}
                     style={{ backfaceVisibility: "hidden" }}
                   >
-                    <Image
+                    <img
                       src={shuffledImages[index]}
                       alt=""
-                      fill
-                      className="object-cover"
+                      className="w-full h-full object-cover"
                     />
                   </motion.div>
                 )}
